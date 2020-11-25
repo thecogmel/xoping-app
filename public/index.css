@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url('../src/assets/segoeui.ttf');
+}
+
+body {
+  font-family: 'segoeui';
+}
+

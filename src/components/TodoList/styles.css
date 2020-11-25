@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'segoeui';
+    src: url('../../assets/segoeui.ttf');
+}
+
+.TodoList{
+    font-family: 'segoeui';
+}
+.TodoList h1 {
+    color: #019ce4;
+    font-family: 'segoeui';
+    text-align: center;
+}
+
+.TodoList form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'segoeui';
+}
+.TodoList button.delete {
+    margin-left: 20%;
+    font-family: 'segoeui';
+}
+.TodoList input {
+    font-family: 'segoeui';
+}
