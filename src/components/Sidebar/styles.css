@@ -1,0 +1,78 @@
+.Sidebar {
+    width: 20%;
+    height: 100%;
+    box-shadow: 2px 0px 7px #888888;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    position: fixed;
+    color: #888888;
+}
+.Sidebar div:hover {
+    color: #019ce4;
+}
+
+#Logo {
+    width: 60%;
+    height: auto;
+    margin: 60px 20px 40px 50px;
+}
+
+.lista {
+
+    text-align: left;
+    margin: 0 7px 50px 20px;
+}
+.a{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+
+
+.historico{
+    text-align: left;
+    margin: 0 7px 50px 20px;
+}
+.b{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+
+
+
+.config{
+
+    text-align: left;
+    margin: 0 7px 0 20px;
+}
+.c{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+
+
+
+.exit {
+
+    text-align: left;
+    margin-top: 1rem;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    
+}
+.d{
+    width: 20%;
+    height: auto;
+    margin: 0 10px 0 20px;
+    vertical-align: baseline;
+}

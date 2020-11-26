@@ -5,6 +5,8 @@
 
 .TodoList{
     font-family: 'segoeui';
+    margin-left: 17%;
+    z-index: 1;
 }
 .TodoList h1 {
     color: #019ce4;
@@ -19,7 +21,7 @@
     font-family: 'segoeui';
 }
 .TodoList button.delete {
-    margin-left: 20%;
+    margin-left: 20px;
     font-family: 'segoeui';
 }
 .TodoList input {

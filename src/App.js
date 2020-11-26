@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import TodoList from './components/TodoList'
+import Sidebar from './components/Sidebar'
+import TodoList from './components/TodoList';
 
 class App extends Component {
   render() {
     return (
-      <TodoList /> 
+      <div id="App">
+        <Sidebar />
+        <TodoList />
+      </div>
     );
   }
 }
