@@ -1,0 +1,9 @@
+@font-face{
+    src: url('../../assets/segoeuib.ttf');
+    font-family: 'seguisb';
+}
+
+.Header {
+    font-size: xx-large;
+    padding-top: 2em ;
+}

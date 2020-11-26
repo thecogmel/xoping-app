@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'segoeui';
   src: url('../src/assets/segoeui.ttf');
+  font-family: 'segoeuib';
+  src: url('../src/assets/segoeuib.ttf');
+  font-family: 'seguisb';
+  src: url('../src/assets/seguisb.ttf');
 }
 
 * {
@@ -11,5 +15,6 @@
 }
 
 body {
-  font-family: 'segoeui';
+  font-family: 'seguisb';
+  color: #888888;
 }
