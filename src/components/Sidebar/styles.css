@@ -1,9 +1,9 @@
 .Sidebar {
     width: 17%;
     height: 100%;
-    box-shadow: 2px 0px 7px #888888;
+    box-shadow: 0.1px 0px 7px #888888;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     position: fixed;
     color: #888888;
