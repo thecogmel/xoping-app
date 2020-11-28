@@ -1,27 +1,27 @@
 import React from "react";
-import Header from "../Header"
-import Add from "../Add"
-import Checkbox from '@material-ui/core/Checkbox';
-import CloseIcon from '@material-ui/icons/Close';
 import DragIndicatorIcon from '@material-ui/icons/DragIndicator';
-import TextField from '@material-ui/core/TextField';
+import CloseIcon from '@material-ui/icons/Close';
+import Banco from '../Banco'
+
 
 import './styles.css';
 
-
-
-const TodoList = () =>
+const Todo = () =>
 
   <div className="Todo">
-    <Header />
-    <div className="cesta">
-      <DragIndicatorIcon />
-      <input type="checkbox" className="container" />
-      <input type="text" className="text" />
-      <button className="delete">X</button>
-      <CloseIcon />
+    <div className="Header">
+      <h1>Sua lista de compras</h1>
     </div>
-    <Add />
+    <div className="cesta">
+      <DragIndicatorIcon size='29px'/>
+      <input type='checkbox'></input>
+      <input type='text'></input>
+      <CloseIcon size='29px'/>
+    </div>
+    <div>
+      <Banco />
+    </div>
+
   </div>;
 
-export default TodoList;
+export default Todo;

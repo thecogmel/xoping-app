@@ -6,8 +6,10 @@
     flex-direction: column;
 }
 
-.Sidebar div:hover {
+.sidebar-block div:hover {
     color: #019ce4;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 #Logo {

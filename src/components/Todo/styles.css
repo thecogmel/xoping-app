@@ -1,47 +1,22 @@
 @font-face {
-    font-family: 'segoeui';
-    src: url('../../assets/segoeui.ttf');
+    src: url('../../assets/segoeuib.ttf');
+    font-family: 'segoeuib';
+}
+
+.Header {
+    font-size: large;
+    font-family: 'segoeuib';
+    padding-top: 3em;
+    padding-bottom: 4em;
+    color: #4bb1df
 }
 
 .Todo {
-    font-family: 'segoeui';
-    margin-left: 17%;
-    position: absolute;
-    width: 80%;
-    height: 100%;
-}
-
-.Todo h1 {
-    color: #019ce4;
-    font-family: 'segoeui';
-    text-align: center;
-}
-
-.text {
-        padding: 12px 20px;
-        margin: 8px 0;
-        border: 0;
-        border-bottom: 2px solid #888888;
-        border-radius: 0;
-        box-sizing: border-box;
-}
-
-.cesta {
+    width: 83vw;
+    font-size: max(20px, 1.5vw);
     display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 45%;
-    height: 32px;
-    margin: auto;
-    justify-content: space-between;
-}
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
-.MuiSvgIcon-root {
-    height: 32px;
-}
-
-.container {
-    width: 25px;
-    height: 25px;
-    margin-right: 25px;
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
 import Sidebar from './components/Sidebar'
 import Todo from './components/Todo';
 
@@ -13,7 +12,7 @@ class App extends Component {
           <Sidebar />
         </aside>
         <main>
-          <Header />
+          <Todo />
         </main>
       </div>
     );
