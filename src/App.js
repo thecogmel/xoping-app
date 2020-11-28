@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import Header from './components/Header';
 import Sidebar from './components/Sidebar'
-import TodoList from './components/TodoList';
+import Todo from './components/Todo';
+
+import './global.css'
 
 class App extends Component {
   render() {
     return (
       <div id="App">
-        <Sidebar />
-        <TodoList />
+        <aside>
+          <Sidebar />
+        </aside>
+        <main>
+          <Header />
+        </main>
       </div>
     );
   }
