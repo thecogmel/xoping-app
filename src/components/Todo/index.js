@@ -67,7 +67,7 @@ function Todo() {
         return (
           <div className="cesta" key={number.id}>
             <DragIndicatorIcon />
-            <Checkbox checked={number.isChecked} onChange={() => toggleChecked(number.id)}/>
+            <Checkbox color={'default'} checked={number.isChecked} onChange={() => toggleChecked(number.id)}/>
             <input type="text"
               placeholder="Digite o nome do novo item..."
               value={number.value}
