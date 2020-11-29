@@ -20,3 +20,39 @@
     text-align: center;
 
 }
+
+.cesta {
+    padding: 1%;
+}
+
+.cesta input {
+    font-size: max(20px, 1.5vw);
+    margin: 0 1vw;
+    border: 0;
+    color: #9a9a9a
+}
+
+.cesta ::placeholder {
+    color: #9a9a9a48
+}
+
+.cesta button {
+    font-size: max(25px, 1.5vw);
+    background-color: #00000000;
+    border: none;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+
+.Add {
+    color: #9a9a9a48
+}
+
+.Add button {
+    font-size: max(25px, 1.5vw);
+    background-color: #00000000;
+    border: none;
+    color: #9a9a9a48;
+    cursor: pointer;
+    padding-right: 2%;
+}
