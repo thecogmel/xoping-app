@@ -19,6 +19,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [Material-UI](https://material-ui.com/)
+
+### Features
+
+- [x] Cadastro de itens
+- [x] Conexão com registro de itens no banco de dados em tempo real
+- [ ] Estilização de acordo com o estado dos checkbox
+
 ## Author
 
 👤 **Erick Medeiros**
