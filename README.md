@@ -2,9 +2,11 @@
 <p>
 </p>
 
+![GitHub repo size](https://img.shields.io/github/repo-size/thecogmel/xoping-app?style=plastic) [![Netlify Status](https://api.netlify.com/api/v1/badges/4abba16d-35d7-4240-8327-8b2aa6dcf162/deploy-status)](https://app.netlify.com/sites/xoping-app/deploys)
+
 > Um aplicativo que serve como uma lista de compras (ou um to-do list) para você deixar registrado o que foi feito!
 
-### ✨ [Demo](https://www.twitch.tv/)
+### ✨ [Demo](https://xoping-app.netlify.app/)
 
 ## Run tests
 
@@ -19,6 +21,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [Material-UI](https://material-ui.com/)
+- [Firebase](firebase.google.com)
 
 ### Features
 
