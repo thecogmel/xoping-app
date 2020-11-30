@@ -69,7 +69,7 @@ function Todo() {
             <DragIndicatorIcon />
             <Checkbox color={'default'} checked={number.isChecked} onChange={() => toggleChecked(number.id)}/>
             <input type="text"
-              placeholder="Digite o nome do novo item..."
+              placeholder="Digite o nome do item..."
               value={number.value}
               onChange={e => editListItem(e.target.value,number.id)}
             />

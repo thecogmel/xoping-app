@@ -31,3 +31,19 @@ body, input, button {
   flex-direction: row;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+  main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  div.cesta {
+    display: flex;
+    justify-content: center;
+  }
+}
